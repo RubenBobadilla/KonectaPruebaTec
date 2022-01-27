@@ -59,14 +59,12 @@
                                 <strong><a class="nav-link" href="{{ route('producto.buscar') }}">Editar</a></strong>
                             </li>   
                             <li class="nav-item">
-                                <strong><a class="nav-link" href="">Eliminar</a></strong>
+                                <strong><a class="nav-link" href="{{ route('venta.crear') }}">Ventas</a></strong>
                             </li>   
                             <li class="nav-item">
-                                <strong><a class="nav-link" href="">Listar</a></strong>
+                                <strong><a class="nav-link" href="">Informes</a></strong>
                             </li>   
-                            <li class="nav-item">
-                                <strong><a class="nav-link" href="">Vender</a></strong>
-                            </li>                                
+                                                          
 
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

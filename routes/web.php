@@ -27,4 +27,10 @@ Route::get('producto/edit/{id}', 'ProductoController@edit')->name('producto.edit
 Route::get('producto/delete/{id}', 'ProductoController@delete')->name('producto.delete');
 Route::post('/producto/up', 'ProductoController@update')->name('producto.update');
 
+// Ventas
+Route::get('/creando-venta', 'VentaController@crear')->name('venta.crear');
+Route::post('/venta/save', 'VentaController@save')->name('venta.save');
+
+
+
 

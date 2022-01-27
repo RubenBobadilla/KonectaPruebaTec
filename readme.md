@@ -63,3 +63,9 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+Desarrollo Prueba Konecta
+-En la conexion tener presente el Puerto por donde escucha la DB
+-Se corre con el servidor WammpServer o Xammp
+-Se adjunta db.sql para la importacion en Mysql
